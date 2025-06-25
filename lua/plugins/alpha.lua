@@ -16,7 +16,7 @@ return {
 		}
 
 		dashboard.section.buttons.val = {
-			dashboard.button("<space>ff", "  > New file", ":Telescope find_files<CR>"),
+			dashboard.button("<space>ff", "  > Find file", ":Telescope find_files<CR>"),
 		}
 
 		alpha.setup(dashboard.opts)
