@@ -6,15 +6,15 @@ return {
         { "gbprod/nord.nvim" },
 
         {
-			"folke/tokyonight.nvim",
-			lazy = false,
-			priority = 1000,
-			opts = {},
+                "folke/tokyonight.nvim",
+                lazy = false,
+                priority = 1000,
+                opts = {},
         },
 
         {
-			"olimorris/onedarkpro.nvim",
-			priority = 1000,
+                "olimorris/onedarkpro.nvim",
+                priority = 1000,
         },
 
         { "sainnhe/gruvbox-material" },
@@ -24,4 +24,11 @@ return {
         { "Shatur/neovim-ayu" },
 
         { "rose-pine/neovim" },
-}
+
+        { "rebelot/kanagawa.nvim" },
+
+        { "askfiy/visual_studio_code" },
+
+        { "sainnhe/everforest" },
+
+        { "projekt0n/github-nvim-theme" },
