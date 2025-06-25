@@ -13,7 +13,7 @@ return {
 		config = function()
 			local lsp = require("lspconfig")
 
-			lsp.csharp_ls.setup({})
+			vim.diagnostic.config({ virtual_text = true })
 
 			lsp.lua_ls.setup({
 				settings = {
