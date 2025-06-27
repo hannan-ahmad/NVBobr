@@ -32,3 +32,4 @@ return {
         { "sainnhe/everforest" },
 
         { "projekt0n/github-nvim-theme" },
+}
