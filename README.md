@@ -1,5 +1,5 @@
 # NVBobr
-This is the ultimate best, easiest to configure and extend Neovim configure in the whole wide expanding Universe. In memory of Uzaaft's sanity.
+This is the ultimate best, easiest to configure and extend Neovim configure in the whole wide expanding Universe.
 
 ### Recommended.
 If you have a previous Neovim configuration, it is advised to back it up.
