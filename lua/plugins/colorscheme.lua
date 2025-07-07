@@ -35,5 +35,5 @@ return {
 
 	{ "oxfist/night-owl.nvim" },
 
-	{ "Mofiqul/dracula.nvim" },
+	{ "binhtran432k/dracula.nvim" },
 }
