@@ -27,12 +27,13 @@ local function format()
 	require("conform").format()
 end
 
+local function focus_aerial()
+	require("aerial").focus()
+end
+
 local map = vim.keymap.set
 
 map("n", "<leader>rn", auto_run)
-map("n", "<leader>n", ":tabnew<CR>")
-map("n", "<tab>", ":tabnext<CR>")
-map("n", "<S-tab>", ":tabprevious<CR>")
 map("n", "<C-q>", ":q<CR>")
 map("n", "<C-j>", open_terminal)
 
@@ -45,3 +46,8 @@ map("n", "<leader>fw", ":Telescope live_grep<CR>")
 map("n", "<leader>ld", ":Telescope diagnostics<CR>")
 
 map("n", "<leader>ft", format)
+
+map("n", "<tab>", ":BufferLineCycleNext<CR>")
+map("n", "<S-tab>", ":BufferLineCyclePrev<CR>")
+map("n", "<S-tab>", ":BufferLineCyclePrev<CR>")
+map("n", "<leader>x", ":bdelete<CR>")
