@@ -1,13 +1,13 @@
 return {
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{ "catppuccin/nvim", name = "catppuccin", lazy = true },
 
-	{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+	{ "ellisonleao/gruvbox.nvim", lazy = true, config = true },
 
-	{ "gbprod/nord.nvim" },
+	{ "gbprod/nord.nvim", lazy = true },
 
 	{
 		"folke/tokyonight.nvim",
-		lazy = false,
+		lazy = true,
 		priority = 1000,
 		opts = {},
 	},
@@ -15,25 +15,18 @@ return {
 	{
 		"olimorris/onedarkpro.nvim",
 		priority = 1000,
+		lazy = true,
 	},
 
-	{ "sainnhe/gruvbox-material" },
+	{ "sainnhe/gruvbox-material", lazy = false },
 
-	{ "loctvl842/monokai-pro.nvim" },
+	{ "loctvl842/monokai-pro.nvim", lazy = true },
 
-	{ "Shatur/neovim-ayu" },
+	{ "Shatur/neovim-ayu", lazy = true },
 
-	{ "rose-pine/neovim" },
+	{ "rose-pine/neovim", lazy = true },
 
-	{ "rebelot/kanagawa.nvim" },
+	{ "rebelot/kanagawa.nvim", lazy = true },
 
-	{ "askfiy/visual_studio_code" },
+	{ "askfiy/visual_studio_code", lazy = true },
 
-	{ "sainnhe/everforest" },
-
-	{ "projekt0n/github-nvim-theme" },
-
-	{ "oxfist/night-owl.nvim" },
-
-	{ "binhtran432k/dracula.nvim" },
-}
