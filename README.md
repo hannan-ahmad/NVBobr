@@ -1,6 +1,5 @@
 # NVBobr
-This is the ultimate best, easiest to configure and extend Neovim configuration in the whole wide expanding Universe.
-
+NVBobr is a neovim distro, aiming to focus on customization, OOTB support for Markdown, and performance.
 ![image](https://github.com/user-attachments/assets/8c77ac07-b2e3-4588-8614-2defcb6ba8ed)
 
 
