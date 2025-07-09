@@ -7,6 +7,8 @@ return {
 	---@type render.md.UserConfig
 	opts = {},
 
+	lazy = true,
+
 	config = function()
 		require("render-markdown").setup({
 			completions = {
