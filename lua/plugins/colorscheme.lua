@@ -30,3 +30,11 @@ return {
 
 	{ "askfiy/visual_studio_code", lazy = true },
 
+	{ "sainnhe/everforest", lazy = false },
+
+	{ "projekt0n/github-nvim-theme", lazy = true },
+
+	{ "oxfist/night-owl.nvim", lazy = true },
+
+	{ "binhtran432k/dracula.nvim", lazy = true },
+}
