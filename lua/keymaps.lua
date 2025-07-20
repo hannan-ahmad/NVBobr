@@ -17,30 +17,6 @@ local function auto_run()
 	end
 end
 
-local function load_colorschemes()
-	local colorschemes = {
-		"catppuccin",
-		"nord",
-		"tokyonight",
-		"ayu",
-		"dracula",
-		"rose-pine",
-		"monokai-pro",
-		"gruvbox",
-		"github-theme",
-		"onedarkpro",
-		"kanagawa",
-		"visual_studio_code",
-		"night-owl",
-	}
-
-	for _, names in ipairs(colorschemes) do
-		require(names).setup({})
-	end
-
-	vim.cmd(":Telescope colorscheme")
-end
-
 local function open_terminal()
 	vim.cmd.split()
 	vim.cmd.terminal()
@@ -48,15 +24,13 @@ local function open_terminal()
 end
 
 local function toggle_ibl()
-	require("ibl").setup()
+	require("ibl").setup({
+		scope = { enabled = false },
+	})
 end
 
 local function format()
 	require("conform").format()
-end
-
-local function focus_aerial()
-	require("aerial").focus()
 end
 
 local map = vim.keymap.set
@@ -69,7 +43,7 @@ map("n", "<C-n>", ":Neotree filesystem reveal left toggle<CR>")
 map("n", "<leader>e", ":Neotree focus<CR>")
 
 map("n", "<leader>ff", ":Telescope find_files<CR>")
-map("n", "<leader>th", load_colorschemes)
+map("n", "<leader>th", ":Telescope colorscheme<CR>")
 map("n", "<leader>fw", ":Telescope live_grep<CR>")
 map("n", "<leader>ld", ":Telescope diagnostics<CR>")
 

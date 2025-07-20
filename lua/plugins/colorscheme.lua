@@ -1,13 +1,12 @@
 return {
-	{ "catppuccin/nvim", name = "catppuccin", lazy = true },
+	{ "catppuccin/nvim", name = "catppuccin"  },
 
-	{ "ellisonleao/gruvbox.nvim", lazy = true, config = true },
+	{ "ellisonleao/gruvbox.nvim", config = true },
 
-	{ "gbprod/nord.nvim", lazy = true },
+	{ "gbprod/nord.nvim"  },
 
 	{
 		"folke/tokyonight.nvim",
-		lazy = true,
 		priority = 1000,
 		opts = {},
 	},
@@ -15,26 +14,25 @@ return {
 	{
 		"olimorris/onedarkpro.nvim",
 		priority = 1000,
-		lazy = true,
 	},
 
-	{ "sainnhe/gruvbox-material", lazy = false },
+	{ "sainnhe/gruvbox-material" },
 
-	{ "loctvl842/monokai-pro.nvim", lazy = true },
+	{ "loctvl842/monokai-pro.nvim",  },
 
-	{ "Shatur/neovim-ayu", lazy = true },
+	{ "Shatur/neovim-ayu",  },
 
-	{ "rose-pine/neovim", lazy = true },
+	{ "rose-pine/neovim",  },
 
-	{ "rebelot/kanagawa.nvim", lazy = true },
+	{ "rebelot/kanagawa.nvim",  },
 
-	{ "askfiy/visual_studio_code", lazy = true },
+	{ "askfiy/visual_studio_code",  },
 
-	{ "sainnhe/everforest", lazy = false },
+	{ "sainnhe/everforest" },
 
-	{ "projekt0n/github-nvim-theme", lazy = true },
+	{ "projekt0n/github-nvim-theme",  },
 
-	{ "oxfist/night-owl.nvim", lazy = true },
+	{ "oxfist/night-owl.nvim",  },
 
-	{ "binhtran432k/dracula.nvim", lazy = true },
+	{ "binhtran432k/dracula.nvim",  },
 }
