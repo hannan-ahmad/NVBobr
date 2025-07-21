@@ -24,6 +24,8 @@ return {
 					},
 				},
 			})
+
+			lsp.jedi_language_server.setup({})
 		end,
 	},
 }
